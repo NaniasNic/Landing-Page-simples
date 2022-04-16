@@ -1,3 +1,3 @@
 # Landing-Page-simples 💻
 
-Site Hospedado: https://app.netlify.com/sites/earth-green
+Site Hospedado: https://earth-green.netlify.app/
