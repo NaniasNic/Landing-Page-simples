@@ -1,0 +1,642 @@
+/* Formato do body */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body da Página */
+html, body{
+    height: 100%;
+}
+
+/* Cabeçalho */
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Logo da Página */
+.logo{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://besthqwallpapers.com/Uploads/8-10-2020/143046/thumb2-leaves-with-dew-4k-macro-plants-dew-drops.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo-single{
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    background-image: linear-gradient(#008000, #008000);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: left;
+
+    transition: 500ms;
+}
+
+.logo-single:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+/* Linha Horizontal */
+hr{
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: black;
+}
+
+/* Container do Primeiro Post */
+.container{
+    width: 100%;
+    background-color: rgb(2, 191, 2);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px black solid;
+}
+
+/* Primeiro texto */
+.texto{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.textowraper{
+    width: 50%;
+    text-align: start;   
+}
+
+.textowraper h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.textowraper p{
+    font-size: 15px;
+    color: white;
+    margin: 30px 0 0;
+}
+
+/* Primeiro Botão */
+.textowraper input{
+    margin: 30px 0 0;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+/* Primeira Imagem */
+.imagem{
+    width: 50%;
+    height: 500px;
+}
+
+.imagemwraper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagemwraper img{
+    height: 400px;
+    width: 500px;
+}
+
+/* Segunda Parte */
+.green{
+    width: 100%;
+    height: 850px;
+    background-image: url(https://th.bing.com/th/id/R.0ec2de4208c92cd152f0c681c3a7f114?rik=OH9Pt4caJ7BKkA&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 4px black solid;
+}
+/* Logo da Segunda Parte */
+.greewrape{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gree-single{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+}
+
+/* Informações da Segunda Parte */
+.redwrape{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.red{
+    width: 25%;
+    height: 300px;
+}
+
+.red-single{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-single img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+
+.red-single h3{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    padding: 40px 0 0;
+}
+
+.red-single p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 20px 0;
+}
+
+/* Terceira Parte */
+/* Primeiro Post */
+.blue{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 191, 2);
+}
+
+.aqua{
+    width: 50%;
+    height: 350px;
+}
+
+/* Informações °1 */
+.blue-single{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blue-single h2{
+    padding: 20px 150px 0;
+    text-align: start;
+    font-size: 40px;
+
+}
+
+.blue-single p{
+    text-align: start;
+    padding: 20px 150px 0;
+    font-size: 17px;
+}
+
+.blue-single input{
+    margin: 20px 150px;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    color: black;
+    border: 2px white solid;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+/* Imagem °1 */
+.aqua-single{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bluewrape img{
+    height: 300px;
+    width: 500px;
+}
+
+/* Segundo Post */
+.black{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 191, 2);
+}
+
+/* Imagem °2 */
+.marrom{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.black-single img{
+    width: 500px;
+    height: 300px;
+}
+
+/* Informações °2 */
+.marrom-single{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blackwrape h2{
+    padding: 0 150px 0;
+    text-align: start;
+    font-size: 40px;
+}
+
+.blackwrape p{
+    padding: 20px 150px 0;
+    text-align: start;
+    font-size: 17px;
+}
+
+.blackwrape input{
+    margin: 20px 150px;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    color: black;
+    border: 2px white solid;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+/* Terceiro Post */
+.gray{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2, 191, 2);
+    border-bottom: 5px black solid;
+}
+
+/* Informações °3 */
+.roxo{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gray-single h2{
+    padding: 0 150px 0;
+    text-align: start;
+    font-size: 40px;
+}
+
+.gray-single p{
+    padding: 20px 150px 0;
+    text-align: start;
+    font-size: 17px;
+}
+
+.gray-single input{
+    margin: 20px 150px;
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    background: transparent;
+    display: inline-block;
+    color: black;
+    border: 2px white solid;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+/* Imagem °3 */
+.roxo-single{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.graywrape img{
+    height: 300px;
+    width: 500px;
+}
+
+/* Quarta Parte */
+.galeria{
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(2, 191, 2);
+    border-bottom: 5px black solid;
+}
+
+/* Informações */
+.galeria-texto{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-texto h2{
+    font-size: 40px;
+    padding: 150px 0 0;
+}
+
+/* Fotos */
+.back-galeria{
+    width: calc(100%/5);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+
+.galeria-fotos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria-fotos img{
+    width: 100%;
+    height: 150px;
+}
+
+/* Descrição */
+.back-descricao{
+    width: 100%;
+    height: 33.3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria-descricao p{
+    font-size: 17px;
+    padding: 50px 300px 0;
+}
+
+/* Quinta Parte */
+/* Informação do Forms */
+.back-form{
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px black solid;
+    background-color: #02BF02;
+}
+
+/* Info */
+.info{
+    width: 50%;
+    height: 600px;
+}
+
+.logo-1 h2{
+    padding: 30px 100px ;
+    font-size: 30px;
+}
+
+.descricao-1 p{
+    text-align: start;
+    font-size: 17px;
+    padding: 0 100px;
+}
+
+/* Caixa info */
+.caixa{
+    width: 500px;
+    height: 250px;
+    margin: 40px 100px;
+    box-shadow: 4px 4px 4px black;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Foto */
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50%;
+    margin: 10px 10px 0;
+}
+
+.profile img{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+}
+
+.profile h2{
+    margin: 0 10px;
+    text-align: center;
+}
+
+/* Caixa Descrição */
+.caixa p{
+    text-align: start;
+    font-size: 15px;
+    margin: 20px 15px;
+}
+
+.caixa a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* Form */
+.forms{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-conteudo{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    border: 2px black solid;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+/* Logo Form */
+.logo-form h2{
+    font-size: 30px;
+    margin: 10px 100px;
+    padding: 20px 0;
+}
+
+/* Inputs de texto*/
+.nome input{
+    width: 350px;
+    margin: 0 100px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+}
+
+.sobrenome input{
+    width: 350px;
+    margin: 0 100px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+}
+
+.email input{
+    width: 350px;
+    margin: 0 100px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+    background: transparent;
+}
+
+.mensagem textarea{
+    width: 350px;
+    margin: 0 100px;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* Botão */
+.botao input{
+    display: inline-block;
+    width: 350px;
+    padding: 10px 0;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin: 10px 100px;
+    letter-spacing: 2px;
+    border: none;
+    background: gray;
+}
+
+/* Descrição do forms */
+.ult p{
+    text-align: center;
+    font-size: 10px;
+    padding: 0 100px;
+}
+
+/* Rodapé Da Página */
+footer{
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    padding: 10px 0;
+}
+
+footer p{
+    font-size: 14px;
+    color: white;
+}

@@ -1,0 +1,358 @@
+/* Responsivo */
+@media screen and (max-width:1050px) {
+    /* Primeira parte */
+    .imagem{
+        width: 100%;
+    }
+
+    .texto{
+        width: 100%;
+    }
+
+    .texto h1{
+        font-size: 30px;
+        text-align: start;
+        padding: 20px 0 0;
+    }
+
+    .texto p{
+        font-size: 12px;
+        text-align: start;
+    }
+
+    .imagem img{
+        width: 100%;
+    }
+
+    /* Segunda Parte */
+    /* Logo */
+    .gree-single h1{
+        font-size: 40px;
+    }
+
+    /* Informação*/
+    .red-single h3{
+        font-size: 20px;
+        padding: 10px 0 0;
+    }
+
+    /* Descrição */
+    .red-single p{
+        font-size: 12px;
+        text-align: center;
+        padding: 30px 40px 0;
+    }
+
+    /* Terceira Parte */
+    /* Primeiro Post */
+    .aqua{
+        width: calc(100%/1);
+    }
+
+    .blue-single h2{
+        font-size: 20px;
+        text-align: start;
+        padding: 20px 100px 0;
+    }
+
+    .blue-single p{
+        font-size: 12px;
+        text-align: start;
+        padding: 20px 100px 0;
+    }
+
+    .blue-single input{
+        margin: 20px 100px;
+        padding: 15px 25px;
+    }
+
+    /* Segundo Post */
+    .marrom-single h2{
+        font-size: 20px;
+        text-align: start;
+        padding: 0 100px 0;
+    }
+
+    .marrom-single p{
+        font-size: 12px;
+        text-align: start;
+        padding: 20px 100px 0;
+    }
+
+    .marrom-single input{
+        margin: 20px 100px;
+        padding: 15px 25px;
+    }
+
+    /* Terceiro Post */
+    .gray-single h2{
+        font-size: 20px;
+        text-align: start;
+        padding: 100px 100px 0;
+    }
+    
+    .gray-single p{
+        font-size: 12px;
+        text-align: start;
+        padding: 20px 100px 0;
+    }
+
+    .gray-single input{
+        margin: 20px 100px;
+        padding: 15px 25px;
+    }
+
+    /* Quarta Parte */
+    .back-galeria{
+        width: calc(100%/2);
+    }
+
+    .galeria-texto h2{
+        font-size: 50px;
+        padding: 80px 0;
+    }
+
+    .galeria-fotos img{
+        height: 100%;
+    }
+
+    .galeria-descricao p{
+        padding: 20px 50px 0;
+    }
+
+    /* Quinta Parte */
+    /* Formulario */
+    .back-form{
+        width: calc(100%/1);
+    }
+    
+    /* Logo Form */
+    .logo-form h2{
+        margin: 10px 180px;
+        padding: 20px 0;
+        font-size: 20px;
+    }
+    
+    /* Inputs de texto*/
+    .nome input{
+
+        margin: 10px 180px;
+        padding: 10px 0;
+    }
+
+    .sobrenome input{
+        margin: 0 180px;
+        padding: 10px 0;
+    }
+
+    .email input{
+        margin: 10px 180px;
+    }
+
+    .mensagem textarea{
+        margin: 0 180px;
+    }
+
+    /* Botão */
+    .botao input{
+        margin: 10px 180px;
+    }
+
+    .ult p{
+        text-align: center;
+        padding: 0 180px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    /* Segunda Parte */
+    .green{
+        height: 1400px;
+    }
+    
+    .red{
+        width: calc(100%/1);
+        height: 350px;
+    }
+
+
+    /* Terceira Parte */
+    /* Primeiro Post */
+
+    .aqua-single{
+        width: 100%;
+    }
+
+    .bluewrape img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Segundo Post */
+    .black{
+        width: calc(100%/1);
+    }
+
+    .marrom{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .black-single img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .marrom-single{
+        margin: 0;
+        padding: 0 0 0;
+        width: 100%;
+    }
+
+    /* Terceiro Post */
+    .gray{
+        width: calc(100%/1);
+    }
+
+    .roxo{
+        width: 100%;
+    }
+
+    .roxo-single{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .graywrape img{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Quinta Parte */
+    .forms{
+       width: 100%;
+    }
+
+    /* Logo Info */
+    .logo-1 h2{
+        font-size: 25px;
+        text-align: start;
+        padding: 100px 0 0;
+    }
+    
+    .descricao-1 p{
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+    /* Caixa info */
+    .caixa{
+        width: 200px;
+        margin: 10px 0;
+    }
+
+    /* Foto */
+    .profile{
+        margin: 2px 2px 0;
+    }
+
+    .profile img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .profile h2{
+        position: absolute;
+        text-align: start;
+        font-size: 12px;
+        padding: 0 50px;
+    }
+
+    /* Caixa Descrição */
+    .caixa p{
+        text-align: start;
+        font-size: 12px;
+        margin: 20px 15px;
+    }
+
+    .caixa a{
+        font-size: 12px;
+        color: black;
+        text-decoration: none;
+        margin: 20px;
+    }
+    
+    /* Forms */
+    .forms{
+        width: 100%;
+    }
+
+    .form-conteudo{
+        width: 250px;
+        margin: 100px 0;
+    }
+
+    /* Logo Form */
+    .logo-form h2{
+        margin: 5px 120px;
+    }
+
+    /* Inputs de texto*/
+    .nome input{
+        width: 150px;
+        margin: 5px 120px;
+    }
+
+    .sobrenome input{
+        width: 150px;
+        margin: 5px 120px;
+    }
+
+    .email input{
+        width: 150px;
+        margin: 5px 120px;
+    }
+
+    .mensagem textarea{
+        width: 150px;
+        margin: 5px 120px;
+    }
+
+    /* Botão */
+    .botao input{
+        width: 150px;
+        margin: 5px 120px;
+    }
+
+    /* Descrição do forms */
+    .ult p{
+        font-size: 10px;
+        padding: 0 100px;
+    }
+
+    /* Rodapé */
+    footer{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    /* Primeira Parte */
+    .imagem{
+        width: 100%;
+    }
+
+    .texto{
+        width: 100%;
+    }
+}
